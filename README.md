@@ -14,3 +14,7 @@ We have already pre-processed the dataset to convert it into string format, ther
 - Each atom's position is transformed using **_Gaussian distribution_**, resulting in a vector of the same shape as the atom's vector representation.
 ### Sentence Concatenation
 We apply a **Self-Attention Mechanism** to each sentence. This allows each atom to "examine" other atoms, enabling a more nuanced understanding of the overall structure. The Self-Attention mechanism utilizes multiple heads to capture various structural aspects.
+
+## Model Architecture
+The following drawing is the main components and layers of the model:
+![image](https://github.com/Alessange/superconductor-predict/assets/56106326/6b3b459e-976b-4795-930e-832177df84c9)
