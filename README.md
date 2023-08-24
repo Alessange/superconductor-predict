@@ -29,5 +29,5 @@ This model is built with the cgcnn as embedding for input crystal structure, and
 
 ### Model Architecture
 The following drawing is the main components and layers of the model consisting of the embedding layer, transformer encoder layer, and regression head for the regression task.
-
+![model2](https://github.com/Alessange/superconductor-predict/assets/56106326/58d349ae-fa00-4134-81f2-d8d0ee7e5e2a)
 
